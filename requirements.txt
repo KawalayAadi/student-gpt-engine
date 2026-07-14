@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+httpx
+asyncpg
+pgvector
+numpy
+pillow
+pytesseract
+python-dotenv
+structlog
+prometheus-client
+pytest
+pytest-asyncio
+python-multipart

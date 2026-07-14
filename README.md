@@ -102,6 +102,11 @@ curl -s -X POST http://localhost:8080/v1/chat \
   -F "message=What is the derivative of x^2?" \
   -F 'history=[]' | python -m json.tool
 
+  //diff modes:
+  curl -s -X POST http://localhost:8080/v1/chat -F "conversation_id=test-1" -F "message=make me flashcards on photosynthesis" -F 'history=[]' | python -m json.tool
+curl -s -X POST http://localhost:8080/v1/chat -F "conversation_id=test-1" -F "message=quiz me on the French Revolution" -F 'history=[]' | python -m json.tool
+curl -s -X POST http://localhost:8080/v1/chat -F "conversation_id=test-1" -F "message=short notes on mitosis" -F 'history=[]' | python -m json.tool
+
 ```
 
 ---
